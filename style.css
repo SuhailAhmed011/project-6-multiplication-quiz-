@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: lightgreen;
+    font-family: sans-serif;
+}
+
+.form{
+    background-color: azure;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    border: solid 2px lightseagreen;
+    padding: 10px;
+}
+
+.input::placeholder{
+    color: gray;
+    font-family: inherit;
+}
+
+.btn{
+    background-color: aqua;
+    color: black;
+    border: none;
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.btn:hover{
+    filter: brightness(.9);
+}
+
+.Score{
+    color: aqua;
+    text-align: right;
+    font-size: 20px;
+}
